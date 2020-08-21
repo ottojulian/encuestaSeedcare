@@ -1,0 +1,64 @@
+body {
+  background-color: rgb(87, 222, 111);
+  font-family: Rubik, Arial;
+  width: 600px !important;
+  height: 1280px !important;
+}
+
+form {
+  text-align: center;
+  line-height: 30px;
+  height: 80%;
+  overflow: auto;
+}
+
+hr.logo {
+    border: 5px solid rgba(0,0,0,.7)		;
+}
+
+form hr {
+  width: 15%;
+}
+
+h1 {
+  text-align: center;
+}
+
+#sub {
+  margin: 200px auto;
+  font-size: 50px;
+}
+
+#burger {
+  max-height: 30%;
+}
+
+#overlay {
+  width: 80%;
+  margin: 3% auto;
+  height: 95vh;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 40px;
+  max-width: 800px;
+}
+
+#logo {
+  height: 100px;
+  display: block;
+  margin: auto;
+}
+
+#logoAnimado {
+  display: block;
+  margin: 200px auto;
+}
+
+.mail {
+  position: relative;
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.toppings label, .cheesy label {
+  margin-right: 25px;
+}

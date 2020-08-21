@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <title>Forms Review</title>
+  </head>
+  <body>
+    <section id="overlay">
+      <img src="./src/img/download.png" alt="Seedcare logo" id="logo">
+      <hr class="logo">
+      <form action="submission.html" method="POST">
+				<h1>Encuesta de experiencia</h1>
+
+        <section class="jornadas">
+          <span>A cuántas jornadas asistió?</span>
+          <br>
+          <input type="radio" name="cantidad" id="1" value="yes">
+          <label for="yes">1</label>
+          <input type="radio" name="cantidad" id="2" value="yes">
+          <label for="no">2</label>
+          <input type="radio" name="cantidad" id="3" value="yes">
+          <label for="no">3</label>
+        </section>
+        <hr>
+
+
+
+        <section class="stands">
+          <label for="cantidad">Aproximadamente, a cuántos stands ingresó?</label>
+          <br>
+          <input type="number" name="cantidad" id="cantidad">
+        </section>
+        <hr>
+
+        <section class="info">
+          <label for="calidad">Qué opina sobre la calidad de información brindada?</label>
+          <br>
+          <span>Incompleta</span>
+          <input type="range" name="calidad" id="calidad" value="3" min="1" max="5">
+          <span>Completa</span>
+        </section>
+        <hr>
+
+        <section class="asistencia">
+          <span>En qué franja asistió mayoritariamente?</span>
+          <br>
+          <input type="checkbox" name="franja" id="mañana" value="mañana">
+          <label for="mañana">Mañana</label>
+          <input type="checkbox" name="franja" id="tarde" value="tarde">
+          <label for="tarde">Tarde</label>
+          <input type="checkbox" name="franja" id="noche" value="noche">
+          <label for="noche">Noche</label>
+        </section>
+        <hr>
+
+        <section class="mailing">
+          <span>Desea recibir informacón de interés?</span>
+          <br>
+          <input type="radio" name="acepta" id="si" value="yes">
+          <label for="yes">Si</label>
+          <input type="radio" name="acepta" id="no" value="yes">
+          <label for="no">No</label>
+        </section>
+        <hr>
+
+        <section class="mail">
+          <label for="encuesta">Escriba a continuación su correo:</label>
+          <input type="text" name="encuesta" id="encuesta">
+        </section>
+
+        <hr>
+        <section class="feedback">
+          <label for="mensaje">Quisiera enviarnos algún comentario?</label>
+          <br>
+          <textarea id="extra" name="mensaje" rows="3" cols="40"></textarea>
+        </section>
+        <hr>
+
+        <section class="submission">
+          <input type="submit" value="Submit">
+        </section>
+      </form>
+    </section>
+  </body>
+</html>
